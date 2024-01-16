@@ -39,10 +39,8 @@ def Compare_files(file_path1, file_path2):
             print("Files are different")
     except FileNotFoundError:
         print("File not found")
-    except PermissionError:
-        print("Permission denied")
-    except OSError:
-        print("Invalid path")
+
+
     
 
 

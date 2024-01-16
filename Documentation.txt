@@ -11,4 +11,13 @@ https://docs.python.org/3/library/os.html
 from PIL import Image:
 In order to compare image files need to install Pillow (pip install Pillow)
 
+Script compares different types of files in different ways:
+1. Compare images - separate method compares images by pixels. If number of pixels for both image files 
+is the same - the method prints that Image files are the same and vise versa.
+2. Compare archive files - separate method compares archive files by size. If size of both archive files 
+is the same - the method prints that archive files are the same and vise versa.
+3. Compare text files - separate method compares text files by content. If content of both text files 
+is the same - method prints that text files are the same. If the names of the files are same and content is different
+- the method prints that text files are different. 
 
+Script validates if file exits in directory
