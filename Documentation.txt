@@ -1,0 +1,14 @@
+import filecmp:
+This module is designed specifically to compare data between two or more files. Using the filecmp.cmp() method, we can accomplish this. If the files match, 
+this function will return True; otherwise, it will return False 
+https://docs.python.org/3/library/filecmp.html
+
+import os:
+In Python, the statement "import os" allows you to access the functionality provided by the "os" module. This module provides a way to interact with the operating system, 
+including functions for working with files and directories.
+https://docs.python.org/3/library/os.html
+
+from PIL import Image:
+In order to compare image files need to install Pillow (pip install Pillow)
+
+
